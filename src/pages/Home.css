@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    .salutation {
+        font-size:24px;
+        margin-left: 2.7em;
+        margin-top: 5em;
+    }
+
+    .name {
+        font-size:32px;
+        color:#A37DF3;
+        margin-left: 2em;
+    }
+
+    .techno {
+        font-size: 80px;
+        font-weight: 600;
+        margin-left: 0.8em;
+        margin-top: -0.3em;
+    }
+
+    .dev {
+        font-size: 80px;
+        font-weight: 600;
+        margin-left: 2.5em;
+        margin-top: -0.5em;
+    }
+    .presentationContainer {
+        max-width:650px;
+        margin-top: 1em;
+
+        .presentation {
+        font-size: 20px;
+        margin-left: 3.3em;
+        line-height: 1.2;
+        }
+    }
+}
