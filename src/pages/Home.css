@@ -29,8 +29,11 @@
         margin-top: -0.5em;
     }
     .presentationContainer {
-        max-width:650px;
+        max-width: 650px;
         margin-top: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
         .presentation {
         font-size: 20px;
