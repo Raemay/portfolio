@@ -3,15 +3,20 @@
     flex-direction: column;
     flex-grow: 1;
 
+    .content {
+        display: flex;
+        justify-content: space-around;
+    }
+
     .salutation {
-        font-size:24px;
+        font-size: 24px;
         margin-left: 2.7em;
         margin-top: 5em;
     }
 
     .name {
-        font-size:32px;
-        color:#A37DF3;
+        font-size: 32px;
+        color: #A37DF3;
         margin-left: 2em;
     }
 
@@ -28,6 +33,7 @@
         margin-left: 2.5em;
         margin-top: -0.5em;
     }
+
     .presentationContainer {
         max-width: 650px;
         margin-top: 1em;
@@ -36,9 +42,39 @@
         align-items: center;
 
         .presentation {
-        font-size: 20px;
-        margin-left: 3.3em;
-        line-height: 1.2;
+            font-size: 20px;
+            margin-left: 3.3em;
+            line-height: 1.2;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+
+        .content {
+            justify-content: flex-start;
+            display: block;
+
+            .salutation {
+                font-size: 24px;
+                margin-left: 2.7em;
+                margin-top: 5em;
+            }
+
+            .techno {
+                font-size: 40px;
+            }
+
+            .dev {
+                font-size: 45px;
+            }
+
+            .presentationContainer {
+                margin-bottom: 8px;
+            }
         }
     }
 }

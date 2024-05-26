@@ -48,6 +48,7 @@ function ResponsiveAppBar({ routePaths }) {
                 {page}
               </Button>
             ))}
+                <a href="/CV_Melanie_Belliard.pdf" download="CV_Melanie_Belliard" style={{ textDecoration: 'none' }}>
             <Button
               variant="contained"
               size="small"
@@ -64,6 +65,7 @@ function ResponsiveAppBar({ routePaths }) {
             >
               Download CV
             </Button>
+            </a>
           </Box>
         </Toolbar>
       </Container>
